@@ -34,7 +34,7 @@ It exposes slash commands for quick rolls, custom dice notation, ability score g
 2. Copy the environment template and fill in your bot credentials:
 
    ```bash
-   copy .env.example .env
+   cp .env.example .env
    ```
 
    Edit `.env`:
@@ -81,4 +81,4 @@ This bot is intended for tabletop and D&D style dice selection. The notation eng
 
 ## License
 
-This project does not currently include a license file. If you plan to publish or share the project publicly, add a license before distributing it.
+This project is licensed under the MIT License. See [LICENSE](./LICENSE) for the full license text.
