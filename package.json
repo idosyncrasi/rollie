@@ -1,0 +1,11 @@
+{
+  "name": "rollie",
+  "version": "1.0.0",
+  "description": "Dice rolling Discord bot for D&D",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "deploy": "node --env-file=.env deploy-commands.js",
+    "start": "node --env-file=.env index.js"
+  }
+}
