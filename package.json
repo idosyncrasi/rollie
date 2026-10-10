@@ -2,10 +2,18 @@
   "name": "rollie",
   "version": "1.0.0",
   "description": "Dice rolling Discord bot for D&D",
+  "license": "MIT",
+  "private": true,
   "main": "index.js",
   "type": "commonjs",
+  "engines": {
+    "node": ">=20.6.0"
+  },
   "scripts": {
     "deploy": "node --env-file=.env deploy-commands.js",
     "start": "node --env-file=.env index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3"
   }
 }

@@ -25,10 +25,10 @@ It exposes slash commands for quick rolls, custom dice notation, ability score g
 
 ## Quick start
 
-1. Install Node.js and the required Discord.js library:
+1. Install Node.js 20.6 or newer, then install the project dependencies:
 
    ```bash
-   npm install discord.js
+   npm install
    ```
 
 2. Copy the environment template and fill in your bot credentials:
